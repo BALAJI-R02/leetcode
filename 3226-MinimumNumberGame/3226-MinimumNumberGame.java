@@ -1,0 +1,13 @@
+// Last updated: 2/11/2026, 1:59:47 PM
+class Solution {
+    public int[] numberGame(int[] nums) {
+        
+        Arrays.sort(nums);
+        for(int i=0;i<nums.length;i=i+2){
+            int t=nums[i];
+            nums[i]=nums[i+1];
+            nums[i+1]=t;
+        }
+        return nums;
+    }
+}
