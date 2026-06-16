@@ -1,0 +1,2 @@
+// Last updated: 6/16/2026, 8:41:48 PM
+where u.purchase_date >= p.start_date and u.purchase_date <= p.end_date or isnull(u.purchase_date)
